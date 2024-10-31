@@ -112,5 +112,8 @@ def gcd(a, b):
 def lcm(a, b):
     return a * b / gcd(a, b)
 
-
-    
+# Note
+# Trong hệ mật mã hóa, giải mã thì khóa công khai để encrypt, còn khóa bí mật để decrypt
+# (Người lạ có khóa công khai thì có thể mã hóa rồi gửi cho người A, người A lấy khóa bí mật để giải mã xem nội dung)
+# Trong hệ chữ ký, khóa bí mật để mã hóa chữ ký, còn khóa công khai để kiểm thử 
+# (Người lạ có khóa công khai có thể kiểm tra xem có đúng khóa của ai đó k)
